@@ -1,10 +1,10 @@
 {
-  "name": "bcrypt-then-js",
-  "description": "bcrypt as promised",
+  "name": "bcryptjs-then",
+  "description": "bcryptjs as promised",
   "version": "1.0.0",
   "author": "Andy Nguyen <andyn1291@gmail.com>",
   "license": "MIT",
-  "repository": "kurigohan/bcrypt-then-js",
+  "repository": "kurigohan/bcryptjs-then",
   "dependencies": {
     "any-promise": "^1.1.0",
     "bcryptjs": "^2.3.0"
