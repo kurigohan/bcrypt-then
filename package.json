@@ -1,13 +1,13 @@
 {
-  "name": "bcrypt-then",
+  "name": "bcrypt-then-js",
   "description": "bcrypt as promised",
-  "version": "1.1.0",
-  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "version": "1.0.0",
+  "author": "Andy Nguyen <andyn1291@gmail.com>",
   "license": "MIT",
-  "repository": "thenables/bcrypt-then",
+  "repository": "kurigohan/bcrypt-then-js",
   "dependencies": {
     "any-promise": "^1.1.0",
-    "bcrypt-nodejs": "0.0.3"
+    "bcryptjs": "^2.3.0"
   },
   "devDependencies": {
     "bluebird": "^3.1.1",
