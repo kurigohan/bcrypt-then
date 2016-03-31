@@ -1,7 +1,7 @@
 {
   "name": "bcryptjs-then",
   "description": "bcryptjs as promised",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Andy Nguyen <andyn1291@gmail.com>",
   "license": "MIT",
   "repository": "kurigohan/bcryptjs-then",
