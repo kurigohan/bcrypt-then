@@ -1,11 +1,20 @@
 
-# bcrypt-then-js
+# bcryptjs-then
+
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
 
 [bcryptjs](https://github.com/dcodeIO/bcrypt.js) as promised.
 
+## Installation
+
+```bash
+$ npm install bcryptjs-then
+```
+
 ## API
 
-Only implements two methods:
+Implements two methods:
 
 ### bcrypt.hash(password, [iterations]).then( hash => )
 
@@ -27,3 +36,9 @@ bcrypt.compare('password', user.password).then(function (valid) {
   assert(valid)
 })
 ```
+
+
+[npm-image]: https://img.shields.io/npm/v/bcryptjs-then.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/bcryptjs-then
+[travis-image]: https://img.shields.io/travis/kurigohan/bcryptjs-then.svg?style=flat-square
+[travis-url]: https://travis-ci.org/kurigohan/bcryptjs-then
